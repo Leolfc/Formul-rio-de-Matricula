@@ -26,6 +26,48 @@
             Preencha os dados abaixo para matricular seu filho na escola de
             educação infantil Estrelas do Amanhã.
           </p>
+          <form action="" method="post">
+            <fieldset class="child-info">
+              <legend>Informações da criança</legend>
+              <div class="wrapper">
+                <label for="fullName">Nome</label>
+                <input
+                  type="text"
+                  id="fullName"
+                  placeholder="Qual o nome da criança?"
+                  name="fullName"
+                />
+              </div>
+              <div class="wrapper">
+                <label for="birth">Data de Nascimento</label>
+                <input type="date" id="birth" name="birth" lang="pt-BR" />
+              </div>
+              <div class="div select-wrapper">
+                <label for="gender">Sexo</label>
+                <select name="gender" id="gender">
+                  <option value="female">Feminino</option>
+                  <option value="male">Masculino</option>
+                  <option value="na">Prefiro não responder</option>
+                </select>
+              </div>
+              <div class="textareawrapper">
+                <label for="medical-info">Informações Médicas</label>
+                <textarea
+                  name="medical-info"
+                  id="medical-info"
+                  cols="30"
+                  rows="10"
+                  placeholder="A criança possui alguma condição médica que
+                     a escola deve estar ciente? (Se sim, especifique)"
+                ></textarea>
+              </div>
+              <div class="droparea-wrapper">
+                <input type="file" id="birth-file" name="birth-file" />
+                <img src="assets/icons/cloud-upload.svg" alt="">
+                <p>Clique aqui para selecionar os arquivos.</p>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </main>
       <aside>
@@ -33,10 +75,16 @@
           <header>
             <img src="assets/icons/logo.svg" alt="Logo estrelas do amanhã" />
             <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
-            <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+            <p>
+              Inscreva seu filho em nossa escola e veja-o florescer em um
+              ambiente acolhedor, seguro e estimulante.
+            </p>
           </header>
         </div>
-        <img src="assets/Illustration.webp" alt="Professor dando ensinando algumas crianças.">
+        <img
+          src="assets/Illustration.webp"
+          alt="Professor dando ensinando algumas crianças."
+        />
       </aside>
     </div>
   </body>
