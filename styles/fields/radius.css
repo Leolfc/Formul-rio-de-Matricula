@@ -38,7 +38,6 @@ label + .radio-wrapper {
       background-image: url("../../assets/icons/circle-hover.svg");
     }
   }
-  
   &:has(:checked) {
     border: 2px solid var(--stroke-highlight);
     & .radio-image {
